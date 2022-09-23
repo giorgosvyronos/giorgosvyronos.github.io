@@ -113,6 +113,18 @@
 			return false;
 		});
 
+		$('.js-goto-proj').on('click', function(event){
+			
+			event.preventDefault();
+
+			$('html, body').animate({
+				scrollTop: $('.proj').offset().top -10
+			}, 500, 'easeInOutExpo');
+			
+			return false;
+		});
+
+
 		$('.js-gotop').on('click', function(event){
 			
 			event.preventDefault();
