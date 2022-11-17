@@ -4,7 +4,7 @@ function Intro() {
    return (
       <div className="flex items-center justify-center flex-col text-center pt-20 pb-6">
          <h1 className="text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold">Giorgos Vyronos</h1>
-         <p className="text-base md:text-xl mb-3 font-medium">Electronic and Information Engineer</p>
+         <p className="text-base md:text-xl mb-3 font-medium">Hello There! 👋</p>
          <p className="text-sm max-w-xl mb-6 font-bold">
             I am a 3rd year student at Imperial College London on my way to obtaining
             my degree in MEng Electronic and Information Engineering.
@@ -17,6 +17,7 @@ function Intro() {
             application in modern technologies and strive towards becoming a
             successful Engineer.
          </p>
+         <p><a className="inline-block px-2 py-1 font-semibold text-white dark:text-stone-900 bg-stone-900 dark:bg-white rounded-md" href="./assets/giorgosVyronos.pdf" download class="btn btn-default btn-lg">Download Resume</a></p>
       </div>
    )
 }

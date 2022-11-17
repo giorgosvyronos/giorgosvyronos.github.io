@@ -1,18 +1,19 @@
 import React from 'react';
-import timeline from '../data/timeline';
-import TimelineItem from './TimelineItem';
+import education from '../data/education';
+import EducationItem from './EducationItem';
 import Title from './Title';
 
-function Timeline() {
+function Education() {
    return (
       <div className="flex flex-col md:flex-row justify-center my-20">
-         <div className="w-full md:w-7/12">
-            <Title>Timeline</Title>
-            {timeline.map(item => (
-               <TimelineItem 
+         <div className="w-full md:w-9/12">
+            <Title>Education</Title>
+            {education.map(item => (
+               <EducationItem 
                   year={item.year}
                   title={item.title}
                   location={item.location}
+                  company={item.company}
                   details={item.details}
                />
             ))}
@@ -21,4 +22,4 @@ function Timeline() {
    )
 }
 
-export default Timeline;
+export default Education;

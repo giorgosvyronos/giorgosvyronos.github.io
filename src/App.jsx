@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Intro from './components/Intro';
 import Portfolio from './components/Portfolio';
-import Timeline from './components/Timeline';
-
+import Experience from './components/Experience';
+import Education from './components/Education';
 function App() {
 	const [theme, setTheme] = useState(null);
 
@@ -75,8 +74,8 @@ function App() {
 			<div className="max-w-5xl w-11/12 mx-auto">
 				<Intro />
 				<Portfolio />
-				<Timeline />
-				<Contact />
+				<Experience />
+                <Education />
 				<Footer />
 			</div>
 		</div>

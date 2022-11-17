@@ -1,20 +1,38 @@
 export default [
-   {
-      title: 'Terminal Website',
-      imgUrl: '/assets/terminal-website.jpg',
-      stack: ['HTML', 'CSS', 'JavaScript'],
-      link: 'https://fkcodes.com',
-   },
-   {
-      title: 'Developer Portfolio',
-      imgUrl: '/assets/dev-portfolio.jpg',
-      stack: ['React', 'Tailwind', 'Vite'],
-      link: 'https://thehackershideout.com',
-   },
-   {
-      title: 'AI Nerf Gun',
-      imgUrl: '/assets/ai-nerf-gun.jpg',
-      stack: ['Python', 'C++', 'Robotics'],
-      link: 'https://youtu.be/A8eegxL82PI',
-   },
+    {
+        title: 'ISSIE Extension',
+        imgUrl: '/assets/issie.png',
+        stack: ['F#', 'Electron', 'JavaScript'],
+        link: 'https://github.com/giorgosvyronos/hlp22-project',
+    },
+    {
+        title: 'Design Digital System',
+        imgUrl: '/assets/dsd.png',
+        stack: ['SystemVerilog', 'Intel Quartus Prime', 'Eclipse'],
+        link: '',
+    },
+    {
+        title: 'MARS Rover',
+        imgUrl: '/assets/rover.png',
+        stack: ['C++', 'Python', 'HTML/CSS', 'JavaScript'],
+        link: 'https://github.com/giorgosvyronos/exploring_uranus',
+    },
+    {
+        title: 'IoT System',
+        imgUrl: '/assets/iot.png',
+        stack: ['Python', 'Eclipse', 'HTML/CSS', 'Javascript'],
+        link: '',
+    },
+    {
+        title: 'MIPS CPU',
+        imgUrl: '/assets/verilog.png',
+        stack: ['C++', 'SystemVerilog'],
+        link: '',
+    },
+    {
+        title: 'MU0 Architecture Design',
+        imgUrl: '/assets/mu0.png',
+        stack: ['SystemVerilog', 'Intel Quartus Prime'],
+        link: 'https://github.com/giorgosvyronos/gcv-cpu',
+    },
 ]

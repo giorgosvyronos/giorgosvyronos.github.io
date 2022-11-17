@@ -1,15 +1,15 @@
 import React from 'react';
-import timeline from '../data/timeline';
-import TimelineItem from './TimelineItem';
+import experience from '../data/experience';
+import ExperienceItem from './ExperienceItem';
 import Title from './Title';
 
-function Timeline() {
+function Experience() {
    return (
       <div className="flex flex-col md:flex-row justify-center my-20">
-         <div className="w-full md:w-7/12">
-            <Title>Timeline</Title>
-            {timeline.map(item => (
-               <TimelineItem 
+         <div className="w-full md:w-9/12">
+            <Title>Work Experience</Title>
+            {experience.map(item => (
+               <ExperienceItem 
                   year={item.year}
                   title={item.title}
                   location={item.location}
@@ -22,4 +22,4 @@ function Timeline() {
    )
 }
 
-export default Timeline;
+export default Experience;
