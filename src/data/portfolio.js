@@ -9,7 +9,7 @@ export default [
         title: 'Design Digital System',
         imgUrl: '/assets/dsd.png',
         stack: ['SystemVerilog', 'Intel Quartus Prime', 'Eclipse'],
-        link: '',
+        link: 'https://github.com/giorgosvyronos/dsd-gv319-private',
     },
     {
         title: 'MARS Rover',
@@ -27,7 +27,7 @@ export default [
         title: 'MIPS CPU',
         imgUrl: '/assets/verilog.png',
         stack: ['C++', 'SystemVerilog'],
-        link: '',
+        link: 'https://github.com/sytan98/MIPS-CPU-Coursework',
     },
     {
         title: 'MU0 Architecture Design',
