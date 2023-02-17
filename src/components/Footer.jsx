@@ -33,7 +33,7 @@ function Footer() {
 								</svg>
 							</a>
 							<a
-								href="mailto:gvironos@icloud.com"
+								href="mailto:work.giorgosvyronos@gmail.com"
 								className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
 								<svg
 								className="w-5 h-5 fill-current"
