@@ -1,5 +1,17 @@
 export default [
     {
+        title: 'Mentat: A new OS design for highly concurrent applications',
+        imgUrl: '/assets/api.png',
+        stack: ['C++', 'CMake', 'GCC'],
+        link: 'https://github.com/giorgosvyronos/mentat',
+    },
+    {
+        title: 'Self-Organising Game',
+        imgUrl: '/assets/somas.png',
+        stack: ['Go', 'C++', 'CMake', 'Yaml'],
+        link: 'https://github.com/SOMAS2022/SOMAS2022',
+    },
+    {
         title: 'ISSIE Extension',
         imgUrl: '/assets/issie.png',
         stack: ['F#', 'Electron', 'JavaScript'],
@@ -18,10 +30,10 @@ export default [
         link: 'https://github.com/giorgosvyronos/exploring_uranus',
     },
     {
-        title: 'IoT System',
-        imgUrl: '/assets/iot.png',
-        stack: ['Python', 'Eclipse', 'HTML/CSS', 'Javascript'],
-        link: '',
+        title: 'George The Bot',
+        imgUrl: '/assets/bot.png',
+        stack: ['Python', 'Twitter Developer API', 'Javascript'],
+        link: 'https://github.com/giorgosvyronos/GeorgeTheBot',
     },
     {
         title: 'MIPS CPU',

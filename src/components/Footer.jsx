@@ -8,7 +8,7 @@ function Footer() {
 						<div className="flex flex-wrap justify-center gap-2">
 							<a 
 								href="https://twitter.com/giorgosvyronos"
-								className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
+								className="button-33 bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
 								<svg
 									className="w-5 h-5 fill-current"
 									role="img"
@@ -20,7 +20,7 @@ function Footer() {
 							</a>
 							<a 
 								href="https://linkedin.com/in/giorgos-vyronos"
-								className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
+								className="button-33 bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
 								<svg
 								className="w-5 h-5 fill-current"
 								role="img"
@@ -34,7 +34,7 @@ function Footer() {
 							</a>
 							<a
 								href="mailto:work.giorgosvyronos@gmail.com"
-								className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
+								className="button-33 bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
 								<svg
 								className="w-5 h-5 fill-current"
 								xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ function Footer() {
 							</a>
 							<a 
 								href="https://github.com/giorgosvyronos"
-								className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
+								className="button-33 bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
 								<svg
 								xmlns="http://www.w3.org/2000/svg"
 								xmlnsXlink="http://www.w3.org/1999/xlink"

@@ -5,11 +5,12 @@ import Title from './Title';
 
 function Education() {
    return (
-      <div className="flex flex-col md:flex-row justify-center my-20">
+      <div>
+         <div className="flex flex-col md:flex-row justify-center my-20">
          <div className="w-full md:w-9/12">
             <Title>Education</Title>
             {education.map(item => (
-               <EducationItem 
+               <EducationItem
                   year={item.year}
                   title={item.title}
                   location={item.location}
@@ -18,6 +19,7 @@ function Education() {
                />
             ))}
          </div>
+      </div>
       </div>
    )
 }

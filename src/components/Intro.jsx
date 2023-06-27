@@ -5,7 +5,7 @@ function Intro() {
       <div className="flex items-center justify-center flex-col text-center pt-20 pb-6">
          <h1 className="text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold">Giorgos Vyronos</h1>
          <p className="text-base md:text-xl mb-3 font-medium">Hello There! 👋</p>
-         <p className="text-justify text-sm max-w-xl mb-6 font-bold">
+         <p className="text-justify text-sm max-w-xl mb- font-bold">
             I am a 4th year student at Imperial College London on my way to obtaining
             my degree in MEng Electronic and Information Engineering.
             <br />
@@ -17,7 +17,7 @@ function Intro() {
             application in modern technologies and strive towards becoming a
             successful Engineer.
          </p>
-         <p><a className="btn btn-default btn-lg inline-block px-2 py-1 font-semibold border-2 border-stone-900 rounded-md" href="./assets/giorgosVyronos.pdf" download class="btn btn-default btn-lg inline-block px-2 py-1 font-semibold border-2 border-stone-900 dark:border-white rounded-md">Download my Resume</a></p>
+         <p><a className="button-33" href="./assets/giorgosVyronos.pdf" download class="button-33">Download my Resume</a></p>
       </div>
    )
 }

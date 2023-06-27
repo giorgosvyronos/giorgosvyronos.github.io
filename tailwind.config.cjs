@@ -1,5 +1,5 @@
 module.exports = {
-	content: ['./index.html', './src/**/*.{jsx, js}'],
+	content: ['./index.html', './src/**/*.{jsx, js}', 'src/styles/myLayout.css'],
 	darkMode: 'class',
 	theme: {
 		extend: {
