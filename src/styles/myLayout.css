@@ -99,6 +99,10 @@
   transform: translateY(0);
 }
 
+a.duck-33.border-2.border-stone-900.dark\:border-white.rounded-md.overflow-hidden {
+  height: 400px;
+  width: auto;
+}
 
 .dark .duck-33 {
   background-color: #1c1917;
