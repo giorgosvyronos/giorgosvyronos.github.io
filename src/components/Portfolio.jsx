@@ -8,7 +8,7 @@ function Portfolio() {
       <div className="flex flex-col md:flex-row items-center justify-center">
       <div className= "w-full" >
          <Title>Projects</Title>
-         <div class="slider">
+         <div class="slider flex flex-col md:flex-row items-center justify-center">
             <div class="slides">
          {portfolio.map(project => (
                   <PortfolioItem 

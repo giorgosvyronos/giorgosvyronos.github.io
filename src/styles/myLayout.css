@@ -145,7 +145,7 @@
 .slides {
   display: flex;
   overflow-x: auto;
-  height: 400px;
+  height: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
@@ -154,6 +154,10 @@
 .slides::-webkit-scrollbar-thumb {
   background: black;
   border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 .slides::-webkit-scrollbar-track {
   background: transparent;
@@ -161,9 +165,11 @@
 .slides > div {
   scroll-snap-align: start;
   flex-shrink: 0;
-  width: auto;
-  height: auto;
+  width: 300px;
+  height: 500px;
   margin-right: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
   border-radius: auto;
   background: transparent;
   transform-origin: center center;
@@ -197,8 +203,8 @@
 
 .slider > a {
   display: inline-flex;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: auto;
+  height: auto;
   background: transparent;
   text-decoration: none;
   align-items: center;
