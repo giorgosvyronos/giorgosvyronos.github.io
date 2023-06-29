@@ -148,7 +148,7 @@ a.duck-33.border-2.border-stone-900.dark\:border-white.rounded-md.overflow-hidde
 
 .slides {
   display: flex;
-  overflow-x: auto;
+  overflow-x:scroll;
   height: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
