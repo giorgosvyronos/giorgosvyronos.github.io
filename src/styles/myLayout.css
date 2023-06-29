@@ -141,7 +141,7 @@ a.duck-33.border-2.border-stone-900.dark\:border-white.rounded-md.overflow-hidde
 }
 
 .slider {
-  width: fit-content;
+  width: auto;
   height: auto;
   text-align: center;
 }
