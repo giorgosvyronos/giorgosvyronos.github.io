@@ -4,6 +4,8 @@ import Intro from './components/Intro';
 import Portfolio from './components/Portfolio';
 import Experience from './components/Experience';
 import Education from './components/Education';
+import Module from './components/Module';
+
 function App() {
 	const [theme, setTheme] = useState(null);
 
@@ -73,9 +75,10 @@ function App() {
 		<div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
 			<div className="max-w-5xl w-11/12 mx-auto">
 				<Intro />
+				<Portfolio />
 				<Experience />
                 <Education />
-				<Portfolio />
+				{/* <Module /> */}
 				<Footer />
 			</div>
 		</div>

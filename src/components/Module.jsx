@@ -1,17 +1,17 @@
 import React from 'react';
-import portfolio from '../data/portfolio';
-import PortfolioItem from './PortfolioItem';
 import Title from './Title';
+import portfolio from '../data/portfolio';
+import ModuleItem from './ModuleItem';
 
-function Portfolio() {
+function Module() {
    return (
       <div className="flex flex-col md:flex-row items-center justify-center">
       <div className= "w-full" >
-         <Title>Projects</Title>
+         <Title>Modules</Title>
          <div class="slider">
             <div class="slides">
          {portfolio.map(project => (
-                  <PortfolioItem 
+                  <ModuleItem 
                      imgUrl={project.imgUrl}
                      title={project.title}
                      stack={project.stack}
@@ -26,4 +26,4 @@ function Portfolio() {
    )
 }
 
-export default Portfolio;
+export default Module;
