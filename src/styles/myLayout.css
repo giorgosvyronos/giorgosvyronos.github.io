@@ -223,3 +223,7 @@ a.duck-33.border-2.border-stone-900.dark\:border-white.rounded-md.overflow-hidde
 .slider > a:focus {
   background: transparent;
 }
+
+/* #grad {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.15),white , rgba(0, 0, 0, 0.15));
+} */

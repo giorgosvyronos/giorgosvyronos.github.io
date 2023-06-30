@@ -126,8 +126,9 @@ function App() {
 		>
 			{theme === 'dark' ? sun : moon}
 		</button>
-		<div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
+		<div id="grad" className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
 			<div className="max-w-5xl w-11/12 mx-auto">
+				<meta name = "viewport" content = "width=device-width, initial-scale = 1, shrink-to-fit = no"></meta>
 				<Intro />
 				<Portfolio />
 				<Experience />
