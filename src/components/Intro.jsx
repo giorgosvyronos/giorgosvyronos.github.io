@@ -12,8 +12,8 @@ function Intro() {
          </p>
          </div>
          <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
-         <p><a className="button-33" href="./assets/giorgosVyronos.pdf" download class="button-33">Download my Resume</a></p>
-         
+
+         <p><a class="button-33" href="./assets/giorgosVyronos.pdf">Download my Resume</a></p>
    </div>
    )
 }

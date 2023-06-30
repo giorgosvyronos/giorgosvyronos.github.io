@@ -1,10 +1,10 @@
 export default [
     {
-        title: 'Mentat: A new OS design for highly concurrent applications',
+        title: 'Mentat',
         imgUrl: '/assets/api.png',
         stack: ['C++', 'CMake', 'GCC'],
         link: 'https://github.com/giorgosvyronos/mentat',
-        info: 'MEng Individual Project'
+        info: 'A new OS design for highly concurrent applications'
     },
     {
         title: 'Self-Organising Game',
