@@ -5,9 +5,11 @@ import Title from './Title';
 
 function Portfolio() {
    return (
-      <div className="flex flex-col md:flex-row items-center justify-center">
-      <div className= "w-w-full md:w-9/12" >
+      <div className="items-center justify-center">
+      <div className= "w-w-full" >
+      <div className="w-full md:w-9/12">
          <Title>Projects</Title>
+         </div>
          <div class="slider w-w-full md:w-9/12">
             <div class="slides">
          {portfolio.map(project => (

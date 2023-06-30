@@ -7,4 +7,12 @@ export default [
         details: ['Final Year Project: Mentat - A new OS design for highly concurrent applications.']
 
     },
+    {
+        year: 'Sep 2015 - Jun 2018',
+        title: 'Apolytirion - Natural Sciences',
+        location: 'Limassol, CY',
+        company: 'Laniteio Lykeion',
+        details: ['Overall Grade: 19.67/20']
+
+    },
 ]

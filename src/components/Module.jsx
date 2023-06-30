@@ -1,21 +1,21 @@
 import React from 'react';
 import Title from './Title';
-import portfolio from '../data/portfolio';
+import module from '../data/module';
 import ModuleItem from './ModuleItem';
 
 function Module() {
    return (
-      <div className="flex flex-col md:flex-row items-center justify-center">
-      <div className= "w-full" >
+      <div className="items-center justify-center">
+      <div className= "w-w-full" >
+      <div className="w-full md:w-9/12">
          <Title>Modules</Title>
+         </div>
          <div class="slider">
             <div class="slides">
-         {portfolio.map(project => (
+         {module.map(project => (
                   <ModuleItem 
-                     imgUrl={project.imgUrl}
                      title={project.title}
                      stack={project.stack}
-                     link={project.link}
                      info={project.info}
                   />
                ))}

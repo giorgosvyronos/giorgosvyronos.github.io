@@ -78,7 +78,7 @@ function App() {
 				<Portfolio />
 				<Experience />
                 <Education />
-				{/* <Module /> */}
+				<Module />
 				<Footer />
 			</div>
 		</div>
